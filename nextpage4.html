@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>basic operator</title>
+
+    <!--This is google arvo font -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+   
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">Python Tutorial</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="nav navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tutorialspoint.com/python_online_training/python_overview.asp" target="_blank">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="PythonBasics.pdf">Q/A</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="css/vishalKumar.contact" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact us</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">call us(9915493622)</a>
+              <a class="dropdown-item" href="css/vishalKumar.contact">Email us(golu.vishalrock26@gmail.com)</a>
+              <a class="dropdown-item" href="#">Text us</a>
+
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Basic Operators</h1>
+          <p>Operators are the constructs which can manipulate the value of operands.</p>
+<p>Consider the expression 4 + 5 = 9. Here, 4 and 5 are called operands and + is called operator.</p>
+<h2>Types of Operator</h2>
+<p>Python language supports the following types of operators.</p>
+<ul class="list">
+<li>Arithmetic Operators</li>
+<li>Comparison (Relational) Operators</li>
+<li>Assignment Operators</li>
+<li>Logical Operators</li>
+<li>Bitwise Operators</li>
+<li>Membership Operators</li>
+<li>Identity Operators</li>
+</ul>
+<p>Let us have a look on all operators one by one.</p>
+<h2>Python Arithmetic Operators</h2>
+<p>Assume variable a holds 10 and variable b holds 20, then &minus;</p>
+<p>[ <a href="/python/arithmetic_operators_example.htm" alt="Python Arithmetic Operators Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;width:10%">Operator</th>
+<th style="text-align:center;width:45%">Description</th>
+<th style="text-align:center;">Example</th>
+</tr>
+<tr>
+<td class="ts">+ Addition</td>
+<td>Adds values on either side of the operator.</td>
+<td class="ts">a + b = 30</td>
+</tr>
+<tr>
+<td class="ts">- Subtraction</td>
+<td>Subtracts right hand operand from left hand operand.</td>
+<td class="ts">a – b = -10</td>
+</tr>
+<tr>
+<td class="ts">* Multiplication</td>
+<td>Multiplies values on either side of the operator</td>
+<td class="ts">a * b = 200</td>
+</tr>
+<tr>
+<td class="ts">/ Division</td>
+<td>Divides left hand operand by right hand operand</td>
+<td class="ts">b / a = 2</td>
+</tr>
+<tr>
+<td class="ts">% Modulus</td>
+<td>Divides left hand operand by right hand operand and returns remainder</td>
+<td class="ts">b % a = 0</td>
+</tr>
+<tr>
+<td class="ts">** Exponent</td>
+<td>Performs exponential (power) calculation on operators</td>
+<td class="ts">a**b =10 to the power 20</td>
+</tr>
+<tr>
+<td class="ts">//</td>
+<td>Floor Division - The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity) &minus;</td>
+<td class="ts">9//2 = 4 and 9.0//2.0 = 4.0, -11//3 = -4, -11.0//3 = -4.0</td>
+</tr>
+</table>
+<h2>Python Comparison Operators</h2>
+<p>These operators compare the values on either sides of them and decide the relation among them. They are also called Relational operators.</p>
+<p>Assume variable a holds 10 and variable b holds 20, then &minus;</p>
+<p>[ <a href="/python/comparison_operators_example.htm" alt="Python Comparison Operators Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;width:10%">Operator</th>
+<th style="text-align:center;width:45%">Description</th>
+<th style="text-align:center;">Example</th>
+</tr>
+<tr>
+<td class="ts">==</td>
+<td>If the values of two operands are equal, then the condition becomes true.</td>
+<td class="ts">(a == b) is not true.</td>
+</tr>
+<tr>
+<td class="ts">!=</td>
+<td>If values of two operands are not equal, then condition becomes true.</td>
+<td class="ts">(a != b) is true.</td>
+</tr>
+<tr>
+<td class="ts">&lt;&gt;</td>
+<td>If values of two operands are not equal, then condition becomes true.</td>
+<td class="ts">(a &lt;&gt; b) is true. This is similar to != operator.</td>
+</tr>
+<tr>
+<td class="ts">&gt;</td>
+<td>If the value of left operand is greater than the value of right operand, then condition becomes true.</td>
+<td class="ts">(a &gt; b) is not true.</td>
+</tr>
+<tr>
+<td class="ts">&lt;</td>
+<td>If the value of left operand is less than the value of right operand, then condition becomes true.</td>
+<td class="ts">(a &lt; b) is true.</td>
+</tr>
+<tr>
+<td class="ts">&gt;=</td>
+<td>If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.</td>
+<td class="ts">(a &gt;= b) is not true.</td>
+</tr>
+<tr>
+<td class="ts">&lt;=</td>
+<td>If the value of left operand is less than or equal to the value of right operand, then condition becomes true.</td>
+<td class="ts">(a &lt;= b) is true.</td>
+</tr>
+</table>
+<h2>Python Assignment Operators</h2>
+<p>Assume variable a holds 10 and variable b holds 20, then &minus;</p>
+<p>[ <a href="/python/assignment_operators_example.htm" alt="Python Assignment Operators Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;width:10%">Operator</th>
+<th style="text-align:center;width:45%">Description</th>
+<th style="text-align:center;">Example</th>
+</tr>
+<tr>
+<td class="ts">=</td>
+<td>Assigns values from right side operands to left side operand</td>
+<td style="vertical-align:middle;">c = a + b assigns value of a + b into c</td>
+</tr>
+<tr>
+<td class="ts">+= Add AND</td>
+<td>It adds right operand to the left operand and assign the result to left operand</td>
+<td style="vertical-align:middle;">c += a is equivalent to c = c + a</td>
+</tr>
+<tr>
+<td class="ts">-= Subtract AND</td>
+<td>It subtracts right operand from the left operand and assign the result to left operand</td>
+<td style="vertical-align:middle;">c -= a is equivalent to c = c - a</td>
+</tr>
+<tr>
+<td class="ts">*= Multiply AND</td>
+<td>It multiplies right operand with the left operand and assign the result to left operand</td>
+<td style="vertical-align:middle;">c *= a is equivalent to c = c * a</td>
+</tr>
+<tr>
+<td class="ts">/= Divide AND</td>
+<td>It divides left operand with the right operand and assign the result to left operand</td>
+<td style="vertical-align:middle;">c /= a is equivalent to c = c / ac /= a is equivalent to c = c / a</td>
+</tr>
+<tr>
+<td class="ts">%= Modulus AND</td>
+<td>It takes modulus using two operands and assign the result to left operand</td>
+<td style="vertical-align:middle;">c %= a is equivalent to c = c % a</td>
+</tr>
+<tr>
+<td class="ts">**= Exponent AND</td>
+<td>Performs exponential (power) calculation on operators and assign value to the left operand</td>
+<td style="vertical-align:middle;">c **= a is equivalent to c = c ** a</td>
+</tr>
+<tr>
+<td class="ts">//= Floor Division</td>
+<td>It performs floor division on operators and assign value to the left operand</td>
+<td style="vertical-align:middle;">c //= a is equivalent to c = c // a</td>
+</tr>
+</table>
+<h2>Python Bitwise Operators</h2>
+<p>Bitwise operator works on bits and performs bit by bit operation. Assume if a = 60; and b = 13; Now in binary format they will be as follows &minus;</p>
+<p>a = 0011 1100</p>
+<p>b = 0000 1101</p>
+<p>-----------------</p>
+<p>a&amp;b = 0000 1100</p>
+<p>a|b = 0011 1101</p>
+<p>a^b = 0011 0001</p>
+<p>~a&nbsp; = 1100 0011</p>
+<p>There are following Bitwise operators supported by Python language</p>
+<p>[ <a href="/python/bitwise_operators_example.htm" alt="Python Bitwise Operators Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;width:10%">Operator</th>
+<th style="text-align:center;width:45%">Description</th>
+<th style="text-align:center;">Example</th>
+</tr>
+<tr>
+<td class="ts">&amp; Binary AND</td>
+<td>Operator copies a bit to the result if it exists in both operands</td>
+<td style="vertical-align:middle;">(a &amp; b) (means 0000 1100)</td>
+</tr>
+<tr>
+<td class="ts">| Binary OR</td>
+<td>It copies a bit if it exists in either operand.</td>
+<td style="vertical-align:middle;">(a | b) = 61 (means 0011 1101)</td>
+</tr>
+<tr>
+<td class="ts">^ Binary XOR</td>
+<td>It copies the bit if it is set in one operand but not both.</td>
+<td style="vertical-align:middle;">(a ^ b) = 49 (means 0011 0001)</td>
+</tr>
+<tr>
+<td class="ts">~ Binary Ones Complement</td>
+<td style="vertical-align:middle;">It is unary and has the effect of 'flipping' bits.</td>
+<td style="vertical-align:middle;">(~a ) = -61 (means 1100 0011 in 2's complement form due to a signed binary number.</td>
+</tr>
+<tr>
+<td class="ts">&lt;&lt; Binary Left Shift</td>
+<td>The left operands value is moved left by the number of bits specified by the right operand.</td>
+<td style="vertical-align:middle;">a &lt;&lt; 2 = 240 (means 1111 0000)</td>
+</tr>
+<tr>
+<td class="ts">&gt;&gt; Binary Right Shift</td>
+<td>The left operands value is moved right by the number of bits specified by the right operand.</td>
+<td style="vertical-align:middle;">a &gt;&gt; 2 = 15 (means 0000 1111)</td>
+</tr>
+</table>
+<h2>Python Logical Operators</h2>
+<p>There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then</p>
+<p>[ <a href="/python/logical_operators_example.htm" alt="Python Logical Operators Example">Show Example</a> ]</p>
+Used to reverse the logical state of its operand.
+<h2>Python Membership Operators</h2>
+<p>Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples. There are two membership operators as explained below &minus;</p>
+<p>[ <a href="/python/membership_operators_example.htm" alt="Python Membership Operators Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;width:10%">Operator</th>
+<th style="text-align:center;width:45%">Description</th>
+<th style="text-align:center;">Example</th>
+</tr>
+<tr>
+<td class="ts">in</td>
+<td>Evaluates to true if it finds a variable in the specified sequence and false otherwise.</td>
+<td style="vertical-align:middle;">x in y, here in results in a 1 if x is a member of sequence y.</td>
+</tr>
+<tr>
+<td class="ts">not in</td>
+<td>Evaluates to true if it does not finds a variable in the specified sequence and false otherwise.</td>
+<td>x not in y, here not in results in a 1 if x is not a member of sequence y.</td>
+</tr>
+</table>
+<h2>Python Identity Operators</h2>
+<p>Identity operators compare the memory locations of two objects. There are two Identity operators explained below &minus;</p>
+<p>[ <a href="/python/identity_operators_example.htm" alt="Python Identity Operators Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;width:10%">Operator</th>
+<th style="text-align:center;width:45%">Description</th>
+<th style="text-align:center;">Example</th>
+</tr>
+<tr>
+<td class="ts">is</td>
+<td>Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.</td>
+<td style="vertical-align:middle;">x is y, here <b>is</b> results in 1 if id(x) equals id(y).</td>
+</tr>
+<tr>
+<td class="ts">is not</td>
+<td>Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.</td>
+<td style="vertical-align:middle;">x is not y, here <b>is not</b> results in 1 if id(x) is not equal to id(y).</td>
+</tr>
+</table>
+<h2>Python Operators Precedence</h2>
+<p>The following table lists all operators from highest precedence to lowest.</p>
+<p>[ <a href="/python/operators_precedence_example.htm" alt="Python Operators Precedence Example">Show Example</a> ]</p>
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;">Sr.No.</th>
+<th style="text-align:center;">Operator &amp; Description</th>
+</tr>
+<tr>
+<td class="ts">1</td>
+<td><p><b>**</b></p>
+<p>Exponentiation (raise to the power)</p></td>
+</tr>
+<tr>
+<td class="ts">2</td>
+<td><p><b>~ + -</b></p>
+<p>Complement, unary plus and minus (method names for the last two are +@ and -@)</p></td>
+</tr>
+<tr>
+<td class="ts">3</td>
+<td><p><b>* / % //</b></p>
+<p>Multiply, divide, modulo and floor division</p></td>
+</tr>
+<tr>
+<td class="ts">4</td>
+<td><p><b>+ -</b></p>
+<p>Addition and subtraction</p></td>
+</tr>
+<tr>
+<td class="ts">5</td>
+<td><p><b>&gt;&gt; &lt;&lt;</b></p>
+<p>Right and left bitwise shift</p></td>
+</tr>
+<tr>
+<td class="ts">6</td>
+<td><p><b>&amp;</b></p>
+<p>Bitwise 'AND'</p></td>
+</tr>
+<tr>
+<td class="ts">7</td>
+<td><p><b>^ |</b></p>
+<p>Bitwise exclusive `OR' and regular `OR'</p></td>
+</tr>
+<tr>
+<td class="ts">8</td>
+<td><p><b>&lt;= &lt; &gt; &gt;=</b></p>
+<p>Comparison operators</p></td>
+</tr>
+<tr>
+<td class="ts">9</td>
+<td><p><b>&lt;&gt; == !=</b></p>
+<p>Equality operators</p></td>
+</tr>
+<tr>
+<td class="ts">10</td>
+<td><p><b>= %= /= //= -= += *= **=</b></p>
+<p>Assignment operators</p></td>
+</tr>
+<tr>
+<td class="ts">11</td>
+<td><p><b>is is not</b></p>
+<p>Identity operators</p></td>
+</tr>
+<tr>
+<td class="ts">12</td>
+<td><p><b>in not in</p></b>
+<p>Membership operators</p></td>
+</tr>
+<tr>
+<td class="ts">13</td>
+<td><p><b>not or and</b></p>
+<p>Logical operators</p></td>
+</tr>
+</table>
+<hr />
+<table class="table table-bordered" style="text-align:center;">
+          <p><a class="btn btn-danger btn-lg" href="nextpage5.html" role="button">next page &raquo;</a></p>
+          <img src="images/python_sh.png" alt="python_logo" height="80" widht="80">
+        </div>
+      </div>
+
+      
+    <footer class="container">
+      <p>&copy; WebPage design by Vishal(UID-16BCS2826) </p>
+    </footer>

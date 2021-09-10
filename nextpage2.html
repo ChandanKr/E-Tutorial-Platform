@@ -1,0 +1,142 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Python Basic syntax</title>
+
+    <!--This is google arvo font -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+   
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">Python Tutorial</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="nav navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tutorialspoint.com/python_online_training/python_overview.asp" target="_blank">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="PythonBasics.pdf">Q/A</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="css/vishalKumar.contact" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact us</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">call us(9915493622)</a>
+              <a class="dropdown-item" href="css/vishalKumar.contact">Email us(golu.vishalrock26@gmail.com)</a>
+              <a class="dropdown-item" href="#">Text us</a>
+
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+
+     
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Python Basic syntax</h1>
+          <p>The Python language has many similarities to Perl, C, and Java. However, there are some definite differences between the languages.</p>
+<h2>First Python Program</h2>
+<p>Let us execute programs in different modes of programming.</p>
+<h3>Interactive Mode Programming</h3>
+<p>Invoking the interpreter without passing a script file as a parameter brings up the following prompt &minus;</p>
+</pre>
+<p>If you are running new version of Python, then you would need to use print statement with parenthesis as in <b>print ("Hello, Python!");</b>. However in Python version 2.4.3, this produces the following result &minus;</p>
+<pre class="result notranslate">
+Hello, Python!
+</pre>
+<h3>Script Mode Programming</h3>
+<p>Invoking the interpreter with a script parameter begins execution of the script and continues until the script is finished. When the script is finished, the interpreter is no longer active.</p>
+<p>Let us write a simple Python program in a script. Python files have extension <b>.py</b>. Type the following source code in a test.py file &minus;</p>
+<pre class="prettyprint notranslate tryit">{
+<b>print "Hello, Python!"</b>
+</pre>
+<p>We assume that you have Python interpreter set in PATH variable. Now, try to run this program as follows &minus;</p>
+<pre class="prettyprint notranslate">
+<b>$ python test.py</b>
+</pre>
+<p>This produces the following result &minus;</p>
+<pre class="result notranslate">
+<b>Hello, Python!</b>
+</pre>
+<p>Let us try another way to execute a Python script. Here is the modified test.py file &minus;</p>
+<pre class="prettyprint notranslate tryit">
+#!/usr/bin/python
+
+<b>print "Hello, Python!"</b>
+</pre>
+<p>We assume that you have Python interpreter available in /usr/bin directory. Now, try to run this program as follows &minus;</p>
+<pre class="prettyprint notranslate">
+$ chmod +x test.py     # This is to make file executable
+$./test.py
+</pre>
+<p>This produces the following result &minus;</p>
+<pre class="result notranslate">
+<b>Hello, Python!</b>
+</pre>
+<h2>Python Identifiers</h2>
+<p>A Python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).</p>
+<p>Python does not allow punctuation characters such as &commat;, $, and % within identifiers. Python is a case sensitive programming language. Thus, <b>Manpower</b> and <b>manpower</b> are two different identifiers in Python.</p>
+<p>Here are naming conventions for Python identifiers &minus;</p>
+<ul class="list">
+<li><p>Class names start with an uppercase letter. All other identifiers start with a lowercase letter.</p></li>
+<li><p>Starting an identifier with a single leading underscore indicates that the identifier is private.</p></li>
+<li><p>Starting an identifier with two leading underscores indicates a strongly private identifier.</p></li>
+<li><p>If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.</p></li>
+</ul>
+
+          <p><a class="btn btn-danger btn-lg" href="nextpage3.html" role="button">Next page &raquo;</a></p>
+          <img src="images/python_sh.png" alt="python_logo" height="80" widht="80">
+        </div>
+      </div>
+
+      
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; WebPage design by Vishal(UID-16BCS2826) </p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
