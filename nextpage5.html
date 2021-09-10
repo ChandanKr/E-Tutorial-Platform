@@ -1,127 +1,147 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Python loops</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
 
-    <!--This is google arvo font -->
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <title>Python loops</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <!--This is google arvo font -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-  <body>
+  <!-- Custom styles for this template -->
+  <link href="css/custom.css" rel="stylesheet">
+</head>
 
-   
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="index.html">Python Tutorial</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="nav navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.tutorialspoint.com/python_online_training/python_overview.asp" target="_blank">Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="PythonBasics.pdf">Q/A</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="css/vishalKumar.contact" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact us</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">call us(9915493622)</a>
-              <a class="dropdown-item" href="css/vishalKumar.contact">Email us(golu.vishalrock26@gmail.com)</a>
-              <a class="dropdown-item" href="#">Text us</a>
-
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
-    <main role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Python Loops</h1>
-          <p>In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on. There may be a situation when you need to execute a block of code several number of times.</p>
-<p>Programming languages provide various control structures that allow for more complicated execution paths.</p>
-<p>A loop statement allows us to execute a statement or group of statements multiple times. The following diagram illustrates a loop statement &minus;</p>
-<img src="/python/images/loop_architecture.jpg" alt="Loop Architecture" />
-<p>Python programming language provides following types of loops to handle looping requirements.</p>
-<table class="table table-bordered">
-<tr>
-<th style="text-align:center;">Sr.No.</th>
-<th style="text-align:center;">Loop Type &amp; Description</th>
-</tr>
-<tr>
-<td class="ts">1</td>
-<td><a href="/python/python_while_loop.htm" title="WHILE loop in Python">while loop</a>
-<p>Repeats a statement or group of statements while a given condition is TRUE. It tests the condition before executing the loop body.</p></td>
-</tr>
-<tr>
-<td class="ts">2</td>
-<td><a href="/python/python_for_loop.htm" title="FOR loop in Python">for loop</a>
-<p>Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.</p></td>
-</tr>
-<tr>
-<td class="ts">3</td>
-<td><a href="/python/python_nested_loops.htm" title="nested loops in Python">nested loops</a>
-<p>You can use one or more loop inside any another while, for or do..while loop.</p></td>
-</tr>
-</table>
-<h2>Loop Control Statements</h2>
-<p>Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.</p>
-<p>Python supports the following control statements. Click the following links to check their detail.</p>
-<table class="table table-bordered">
-<tr>
-<th style="text-align:center;">Sr.No.</th>
-<th style="text-align:center;">Control Statement &amp; Description</th>
-</tr>
-<tr>
-<td class="ts">1</td>
-<td><a href="/python/python_break_statement.htm" title="break statement in Python">break statement</a>
-<p>Terminates the loop statement and transfers execution to the statement immediately following the loop.</p></td>
-</tr>
-<tr>
-<td class="ts">2</td>
-<td><a href="/python/python_continue_statement.htm" title="continue statement in Python">continue statement</a>
-<p>Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.</p></td>
-</tr>
-<tr>
-<td class="ts">3</td>
-<td><a href="/python/python_pass_statement.htm" title="pass statement in Python">pass statement</a>
-<p>The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute.</p></td>
-</tr>
-</table>
+<body>
 
 
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">Python Tutorial</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<table class="table table-bordered" style="text-align:center;">
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="nav navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.tutorialspoint.com/python_online_training/python_overview.asp"
+            target="_blank">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="PythonBasics.pdf">Q/A</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="css/vishalKumar.contact" id="dropdown01" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Contact us</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">call us(9915493622)</a>
+            <a class="dropdown-item" href="css/vishalKumar.contact">Email us(golu.vishalrock26@gmail.com)</a>
+            <a class="dropdown-item" href="#">Text us</a>
+
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Python Loops</h1>
+        <p>In general, statements are executed sequentially: The first statement in a function is executed first,
+          followed by the second, and so on. There may be a situation when you need to execute a block of code several
+          number of times.</p>
+        <p>Programming languages provide various control structures that allow for more complicated execution paths.</p>
+        <p>A loop statement allows us to execute a statement or group of statements multiple times. The following
+          diagram illustrates a loop statement &minus;</p>
+        <img src="/python/images/loop_architecture.jpg" alt="Loop Architecture" />
+        <p>Python programming language provides following types of loops to handle looping requirements.</p>
+        <table class="table table-bordered">
+          <tr>
+            <th style="text-align:center;">Sr.No.</th>
+            <th style="text-align:center;">Loop Type &amp; Description</th>
+          </tr>
+          <tr>
+            <td class="ts">1</td>
+            <td><a href="/python/python_while_loop.htm" title="WHILE loop in Python">while loop</a>
+              <p>Repeats a statement or group of statements while a given condition is TRUE. It tests the condition
+                before executing the loop body.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="ts">2</td>
+            <td><a href="/python/python_for_loop.htm" title="FOR loop in Python">for loop</a>
+              <p>Executes a sequence of statements multiple times and abbreviates the code that manages the loop
+                variable.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="ts">3</td>
+            <td><a href="/python/python_nested_loops.htm" title="nested loops in Python">nested loops</a>
+              <p>You can use one or more loop inside any another while, for or do..while loop.</p>
+            </td>
+          </tr>
+        </table>
+        <h2>Loop Control Statements</h2>
+        <p>Loop control statements change execution from its normal sequence. When execution leaves a scope, all
+          automatic objects that were created in that scope are destroyed.</p>
+        <p>Python supports the following control statements. Click the following links to check their detail.</p>
+        <table class="table table-bordered">
+          <tr>
+            <th style="text-align:center;">Sr.No.</th>
+            <th style="text-align:center;">Control Statement &amp; Description</th>
+          </tr>
+          <tr>
+            <td class="ts">1</td>
+            <td><a href="/python/python_break_statement.htm" title="break statement in Python">break statement</a>
+              <p>Terminates the loop statement and transfers execution to the statement immediately following the loop.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="ts">2</td>
+            <td><a href="/python/python_continue_statement.htm" title="continue statement in Python">continue
+                statement</a>
+              <p>Causes the loop to skip the remainder of its body and immediately retest its condition prior to
+                reiterating.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="ts">3</td>
+            <td><a href="/python/python_pass_statement.htm" title="pass statement in Python">pass statement</a>
+              <p>The pass statement in Python is used when a statement is required syntactically but you do not want any
+                command or code to execute.</p>
+            </td>
+          </tr>
+        </table>
+
+
+
+        <table class="table table-bordered" style="text-align:center;">
           <p><a class="btn btn-danger btn-lg" href="nextpage6.html" role="button">next page &raquo;</a></p>
           <img src="images/python_sh.png" alt="python_logo" height="80" widht="80">
-        </div>
       </div>
+    </div>
 
-      
+
     <footer class="container">
-      <p>&copy; WebPage design by Vishal(UID-16BCS2826) </p>
+      <p>&copy; WebPage design by Chandan Kumar</p>
     </footer>
